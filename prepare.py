@@ -260,23 +260,17 @@ def prepare_data(data, training_data):
 
     # Drop features from the data set that we decided not to keep
 
-    to_keep = ['num_of_siblings', 'sugar_levels', 'household_income', 'PCR_01', 'PCR_02', 'PCR_03', 'PCR_06', 'PCR_07', 'PCR_10', 'blood_A_AB', 'risk', 'spread',
-               'covid']
+    to_keep = ['num_of_siblings', 'sugar_levels', 'household_income', 'PCR_01', 'PCR_02', 'PCR_03', 'PCR_06', 'PCR_07', 'PCR_10',\
+               'BloodType', 'blood_A_AB', 'VirusScore']
     to_drop = [x for x in training_data_copy.columns if x not in to_keep]
     #print(data_copy.columns)
     for drop_it in to_drop:
         data_copy.drop(drop_it, axis='columns', inplace=True)
         training_data_copy.drop(drop_it, axis='columns', inplace=True)
-    data_copy['risk'] = np.where(data_copy['risk'] == 'High', 1, -1)
-    data_copy['spread'] = np.where(data_copy['spread'] == 'High', 1, -1)
-    data_copy['covid'] = np.where(data_copy['covid'], 1, -1)
-    training_data_copy['risk'] = np.where(training_data_copy['risk'] == 'High', 1, -1)
-    training_data_copy['spread'] = np.where(training_data_copy['spread'] == 'High', 1, -1)
-    training_data_copy['covid'] = np.where(training_data_copy['covid'], 1, -1)
 
     # Apply normalization to the features
 
-    target_cols = ['covid', 'risk', 'spread']
+    target_cols = ['VirusScore']
     z_score_cols = ['PCR_07', 'PCR_10', 'sugar_levels', 'num_of_siblings']
     min_max_cols = [x for x in data_copy.columns if x not in target_cols and x not in z_score_cols]
 

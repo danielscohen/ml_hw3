@@ -1,9 +1,8 @@
 import prepare
-import prepare_no_norm
 import pandas as pd
 
 if __name__ == '__main__':
-    dataset = pd.read_csv("virus_data.csv")
+    dataset = pd.read_csv("virus_labeled.csv")
     # Selecting samples from the dataset while randomizing the samples
     train_df = dataset.sample(frac=0.8, random_state=16)
 
