@@ -172,9 +172,8 @@ def prepare_data(data, training_data):
     pcr_cols = ['PCR_01', 'PCR_02', 'PCR_03', 'PCR_04', 'PCR_05', 'PCR_06', 'PCR_07', 'PCR_08', 'PCR_09', 'PCR_10']
     limited_cat_cols = ['conversations_per_day', 'num_of_siblings', 'happiness_score', 'sex', 'symptoms_cough',
                         'symptoms_headache', \
-                        'symptoms_low_appetite', 'symptoms_shortness_of_breath', 'symptoms_fever', 'sport_activity',
-                        'risk', 'spread', \
-                        'covid', 'blood_type', 'age_groups', 'weight_groups', 'h_income_groups', 'sugar_levels_groups',
+                        'symptoms_low_appetite', 'symptoms_shortness_of_breath', 'symptoms_fever', 'sport_activity',\
+                         'blood_type', 'age_groups', 'weight_groups', 'h_income_groups', 'sugar_levels_groups',
                         'PCR_01_groups' \
         , 'PCR_02_groups', 'PCR_03_groups', 'PCR_04_groups', 'PCR_06_groups', 'PCR_07_groups', 'PCR_08_groups',
                         'PCR_09_groups' \
