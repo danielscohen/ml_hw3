@@ -218,10 +218,10 @@ def prepare_data(data, training_data):
 
     # Replace categorical features with OHE features in training set:
     data_copy = pd.concat([data_copy, ohe_sex_data, ohe_blood_type_data, df_address_states_data], axis='columns')
-    data_copy.drop(['sex', 'blood_type', 'address_states'], axis=1, inplace=True)
+    data_copy.drop(['sex', 'address_states'], axis=1, inplace=True)
     training_data_copy = pd.concat([training_data_copy, ohe_sex_train, ohe_blood_type_train, df_address_states_train],
                                    axis='columns')
-    training_data_copy.drop(['sex', 'blood_type', 'address_states'], axis=1, inplace=True)
+    training_data_copy.drop(['sex', 'address_states'], axis=1, inplace=True)
 
     # We received an approximate 5% so we'll go with median imputation technique
     imputer = SimpleImputer(missing_values=np.nan, strategy='median')
@@ -260,7 +260,7 @@ def prepare_data(data, training_data):
     # Drop features from the data set that we decided not to keep
 
     to_keep = ['num_of_siblings', 'sugar_levels', 'household_income', 'PCR_01', 'PCR_02', 'PCR_03', 'PCR_06', 'PCR_07', 'PCR_10',\
-               'BloodType', 'blood_A_AB', 'VirusScore']
+               'blood_type', 'blood_A_AB', 'VirusScore']
     to_drop = [x for x in training_data_copy.columns if x not in to_keep]
     #print(data_copy.columns)
     for drop_it in to_drop:
@@ -269,7 +269,7 @@ def prepare_data(data, training_data):
 
     # Apply normalization to the features
 
-    target_cols = ['VirusScore']
+    target_cols = ['blood_type', 'VirusScore']
     z_score_cols = ['PCR_07', 'PCR_10', 'sugar_levels', 'num_of_siblings']
     min_max_cols = [x for x in data_copy.columns if x not in target_cols and x not in z_score_cols]
 
