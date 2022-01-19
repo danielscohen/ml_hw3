@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  18 JAN 2022 20:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  19 JAN 2022 18:08
 entering extended mode
 **c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw3/313575599-308160647.tex
 (c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw3/313575599-308160647.tex
@@ -355,14 +355,14 @@ Overfull \hbox (24.47597pt too wide) in paragraph at lines 32--33
  [][] 
  []
 
-<images/q3.png, id=3, 584.1825pt x 257.46187pt>
+<images/q3.png, id=3, 700.86844pt x 317.68687pt>
 File: images/q3.png Graphic file (type png)
 <use images/q3.png>
 Package pdftex.def Info: images/q3.png  used on input line 45.
-(pdftex.def)             Requested size: 292.09053pt x 128.7306pt.
+(pdftex.def)             Requested size: 490.60457pt x 222.37927pt.
 [1
 
-{C:/Users/dcohe/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw3/images/q1.png> <c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw3/images/q3.png>] (c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw3\313575599-308160647.aux) ) 
+{C:/Users/dcohe/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw3/images/q1.png>] [2 <c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw3/images/q3.png>] (c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw3\313575599-308160647.aux) ) 
 Here is how much of TeX's memory you used:
  5818 strings out of 492452
  82033 string characters out of 3120063
@@ -372,9 +372,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  46i,7n,37p,339b,232s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw3\313575599-308160647.pdf (1 page, 130769 bytes).
+Output written on c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw3\313575599-308160647.pdf (2 pages, 148993 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
+ 34 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
