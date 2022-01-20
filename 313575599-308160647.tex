@@ -44,5 +44,23 @@
         \centering
         \includegraphics[scale=0.7]{images/q3.png}
     \end{figure}
+\subsection*{Q4:}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.48]{q4.png}
+        \caption{Plot of Residuals of analytical and numerical gradients}
+        \label{fig:q4}
+    \end{figure}
+    \paragraph*{}
+    As we can see in figure \ref{fig:q4}, the difference between the analytic and numerical gradients increases in a  monotonic fashion as the value of $\delta$ increases. This is logical, as $\delta$ is the differential size used in the definition of the numerical gradient, and therefore a smaller $\delta$  equates to a more precise estimation of the analytic gradient by the numerical gradient.
+\subsection*{Q5:}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.35]{q5.png}
+        \caption{Graphs of Training and Validation Losses as Functions of Iteration Number for Different  Learning Rates}
+        \label{fig:q5}
+    \end{figure}
+    \paragraph*{}
+    We can see in figure \ref{fig:q5} that for smaller lr, for those that converge, the convergence is at a higher loss for both the training and validation. This matches the theory, since if the lr is too small, the SGD algorithm is likely to converge to a sub-optimal solution. In addition we observe that for the lr equal to $0.1$ the graphs do not converge for both training and validation losses and for lr equal to $0.01$ the validation loss does not converge, which fits the theory that says that learning rates that are too high are likely to cause the SGD algorithm to take steps that are too large and thus repeatedly skip-over the optimal solution. This points to $0.001$ as being the optimal lr, as both the validation and training losses converge to values that are substantially lower than the next smaller lr.
 
 \end{document}
