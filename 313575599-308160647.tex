@@ -62,5 +62,16 @@
     \end{figure}
     \paragraph*{}
     We can see in figure \ref{fig:q5} that for smaller lr, for those that converge, the convergence is at a higher loss for both the training and validation. This matches the theory, since if the lr is too small, the SGD algorithm is likely to converge to a sub-optimal solution. In addition we observe that for the lr equal to $0.1$ the graphs do not converge for both training and validation losses and for lr equal to $0.01$ the validation loss does not converge, which fits the theory that says that learning rates that are too high are likely to cause the SGD algorithm to take steps that are too large and thus repeatedly skip-over the optimal solution. This points to $0.001$ as being the optimal lr, as both the validation and training losses converge to values that are substantially lower than the next smaller lr.
+\subsection*{Q6:}
+    \begin{center}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            \rowcolor{gray!60}
+            Model & Section & Train MSE & Valid MSE\\ \hline
+            \rowcolor{gray!20}
+            ~&~ & \multicolumn{2}{c|}{Cross Validated}\\ \hline
+            Dummy & 2 & $0.0204$ & $0.0205$\\ \hline
+        \end{tabular}
+    \end{center}
 
 \end{document}
