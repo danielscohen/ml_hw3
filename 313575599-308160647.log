@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  20 JAN 2022 14:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  24 JAN 2022 12:21
 entering extended mode
 **c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw3/313575599-308160647.tex
 (c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw3/313575599-308160647.tex
@@ -380,15 +380,15 @@ Overfull \hbox (13.84521pt too wide) in paragraph at lines 59--60
 
 [2 <c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw3/images/q3.png> <./images/q4.png>] [3 <./images/q5.png>] (c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw3\313575599-308160647.aux) ) 
 Here is how much of TeX's memory you used:
- 5835 strings out of 492452
- 82260 string characters out of 3120063
- 163040 words of memory out of 3000000
- 10102 multiletter control sequences out of 15000+200000
+ 5837 strings out of 492452
+ 82288 string characters out of 3120063
+ 164040 words of memory out of 3000000
+ 10104 multiletter control sequences out of 15000+200000
  11671 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,7n,37p,919b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,8n,37p,919b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw3\313575599-308160647.pdf (3 pages, 264833 bytes).
+Output written on c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw3\313575599-308160647.pdf (3 pages, 266657 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
