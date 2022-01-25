@@ -74,6 +74,16 @@
         \end{tabular}
     \end{center}
 \section*{Section 4}
+\subsection*{Q7:}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{q7.png}
+        \caption{Graph of Training and Validation Errors of Ridge Regressor as a Function of \code{alpha}}
+        \label{fig:q7}
+    \end{figure}
+    Optimal alpha for validation: 25.950242113997373\\
+    Validation error for optimal alpha: 0.017402908351734445
+
 \subsection*{Q8:}
     \begin{center}
         \begin{tabular}{|c|c|c|c|}
@@ -83,12 +93,106 @@
             \rowcolor{gray!20}
             ~&~ & \multicolumn{2}{c|}{Cross Validated}\\ \hline
             Dummy & 3 & $0.0204$ & $0.0205$\\ \hline
-            Ridge linear & 4 & $0.0204$ & $0.0205$\\ \hline
+            Ridge linear & 4 & $0.0172$ & $0.0174$\\ \hline
         \end{tabular}
     \end{center}
+\subsection*{Q9:}
+    \begin{figure}[H]
+        \centering
+        \begin{tabular}{|c|c|}
+            \hline
+            \rowcolor{gray!60}
+            Feature & Coefficient \\ \hline
+            \code{blood\_A\_AB} & $0.0970$ \\ \hline
+            \code{num\_of\_siblings} & $0.0298$ \\ \hline
+            \code{household\_income} & $-0.0275$ \\ \hline
+            \code{PCR\_02} & $-0.0141$ \\ \hline
+            \code{PCR\_01} & $-0.0113$ \\ \hline
+        \end{tabular}
+        \caption{Five Features From Ridge Regressor With Largest Coefficients in Terms of Absolute Value, From Largest to Smallest}
+    \end{figure}
+\subsection*{Q10:}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.7]{q10.png}
+        \caption{Graph of Absolute Values of Learned Coefficients of Ridge Regressor}
+        \label{fig:q10}
+    \end{figure}
+\section*{Section 5}
+\subsection*{Q11:}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{q11.png}
+        \caption{Graph of Training and Validation Errors of Lasso Regressor as a Function of \code{alpha}}
+        \label{fig:q7}
+    \end{figure}
+    Optimal alpha for validation: 0.0005336699231206312\\
+    Validation error for optimal alpha: 0.01739141826673015
+
+\subsection*{Q13:}
+    \begin{center}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            \rowcolor{gray!60}
+            Model & Section & Train MSE & Valid MSE\\ \hline
+            \rowcolor{gray!20}
+            ~&~ & \multicolumn{2}{c|}{Cross Validated}\\ \hline
+            Dummy & 3 & $0.0204$ & $0.0205$\\ \hline
+            Ridge linear & 4 & $0.0172$ & $0.0174$\\ \hline
+            Lasso linear & 5 & $0.0172$ & $0.0173$\\ \hline
+        \end{tabular}
+    \end{center}
+\subsection*{Q14:}
+    \begin{figure}[H]
+        \centering
+        \begin{tabular}{|c|c|}
+            \hline
+            \rowcolor{gray!60}
+            Feature & Coefficient \\ \hline
+            \code{blood\_A\_AB} & $0.0993$ \\ \hline
+            \code{num\_of\_siblings} & $0.0297$ \\ \hline
+            \code{household\_income} & $-0.0223$ \\ \hline
+            \code{PCR\_02} & $-0.0064$ \\ \hline
+            \code{PCR\_10} & $0.0038$ \\ \hline
+        \end{tabular}
+        \caption{Five Features From Lasso Regressor With Largest Coefficients in Terms of Absolute Value, From Largest to Smallest}
+    \end{figure}
+\subsection*{Q15:}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.7]{q15.png}
+        \caption{Graph of Absolute Values of Learned Coefficients of Lasso Regressor}
+        \label{fig:q15}
+    \end{figure}
+    \paragraph*{}
+
 \section*{Section 6}
 \subsection*{Q16:}
     \paragraph*{}
     When using a polynomial feature mapping, we can expect the training error to decrease and the validation error to increase. This is because the polynomial mapping will give more flexibility to the regression model to more closely try to fit the training data during training in a polynomial way, thereby leading to lower training error, but also causing overfitting and therefore leading to a higher validation error.
 
+\subsection*{Q18:}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{q18.png}
+        \caption{Graph of Training and Validation Errors of Polynomially-Mapped Ridge Regressor as a Function of \code{alpha}}
+        \label{fig:q8}
+    \end{figure}
+    Optimal alpha for validation: 200.923300256505\\
+    Validation error for optimal alpha: 0.01747015013288799
+
+\subsection*{Q19:}
+    \begin{center}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            \rowcolor{gray!60}
+            Model & Section & Train MSE & Valid MSE\\ \hline
+            \rowcolor{gray!20}
+            ~&~ & \multicolumn{2}{c|}{Cross Validated}\\ \hline
+            Dummy & 3 & $0.0204$ & $0.0205$\\ \hline
+            Ridge linear & 4 & $0.0172$ & $0.0174$\\ \hline
+            Lasso linear & 5 & $0.0172$ & $0.0173$\\ \hline
+            Ridge polynomial & 6 & $0.0166$ & $0.0174$\\ \hline
+        \end{tabular}
+    \end{center}
 \end{document}

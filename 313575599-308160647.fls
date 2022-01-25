@@ -151,6 +151,31 @@ INPUT .\images\q5.png
 INPUT .\images\q5.png
 INPUT .\images\q5.png
 INPUT .\images\q5.png
+INPUT images\q7.png
+INPUT .\images\q7.png
+INPUT .\images\q7.png
+INPUT .\images\q7.png
+INPUT .\images\q7.png
+INPUT images\q10.png
+INPUT .\images\q10.png
+INPUT .\images\q10.png
+INPUT .\images\q10.png
+INPUT .\images\q10.png
+INPUT images\q11.png
+INPUT .\images\q11.png
+INPUT .\images\q11.png
+INPUT .\images\q11.png
+INPUT .\images\q11.png
+INPUT images\q15.png
+INPUT .\images\q15.png
+INPUT .\images\q15.png
+INPUT .\images\q15.png
+INPUT .\images\q15.png
+INPUT images\q18.png
+INPUT .\images\q18.png
+INPUT .\images\q18.png
+INPUT .\images\q18.png
+INPUT .\images\q18.png
 INPUT c:\Users\dcohe\Documents\Technion\winter_2021\ml\hw3\313575599-308160647.aux
 INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
@@ -160,5 +185,7 @@ INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfon
 INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt10.pfb
 INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt10.pfb
