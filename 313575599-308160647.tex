@@ -63,7 +63,8 @@
     \paragraph*{}
     We can see in figure \ref{fig:q5} that for smaller lr, for those that converge, the convergence is at a higher loss for both the training and validation. This matches the theory, since if the lr is too small, the SGD algorithm is likely to converge to a sub-optimal solution. In addition we observe that for the lr equal to $0.1$ the graphs do not converge for both training and validation losses and for lr equal to $0.01$ the validation loss does not converge, which fits the theory that says that learning rates that are too high are likely to cause the SGD algorithm to take steps that are too large and thus repeatedly skip-over the optimal solution. This points to $0.001$ as being the optimal lr, as both the validation and training losses converge to values that are substantially lower than the next smaller lr.
 \subsection*{Q6:}
-    \begin{center}
+    \begin{figure}[H]
+        \centering
         \begin{tabular}{|c|c|c|c|}
             \hline
             \rowcolor{gray!60}
@@ -72,7 +73,8 @@
             ~&~ & \multicolumn{2}{c|}{Cross Validated}\\ \hline
             Dummy & 3 & $0.0204$ & $0.0205$\\ \hline
         \end{tabular}
-    \end{center}
+        \caption{Training and Validation MSE Errors for Dummy Regressor}
+    \end{figure}
 \section*{Section 4}
 \subsection*{Q7:}
     \begin{figure}[H]
@@ -85,7 +87,8 @@
     Validation error for optimal alpha: 0.017402908351734445
 
 \subsection*{Q8:}
-    \begin{center}
+    \begin{figure}[H]
+        \centering
         \begin{tabular}{|c|c|c|c|}
             \hline
             \rowcolor{gray!60}
@@ -95,7 +98,8 @@
             Dummy & 3 & $0.0204$ & $0.0205$\\ \hline
             Ridge linear & 4 & $0.0172$ & $0.0174$\\ \hline
         \end{tabular}
-    \end{center}
+        \caption{Training and Validation MSE Errors for Dummy and Ridge Regressors}
+    \end{figure}
 \subsection*{Q9:}
     \begin{figure}[H]
         \centering
@@ -124,13 +128,25 @@
         \centering
         \includegraphics[scale=0.5]{q11.png}
         \caption{Graph of Training and Validation Errors of Lasso Regressor as a Function of \code{alpha}}
-        \label{fig:q7}
+        \label{fig:q11}
     \end{figure}
     Optimal alpha for validation: 0.0005336699231206312\\
     Validation error for optimal alpha: 0.01739141826673015
 
+\subsection*{Q12:}
+    \paragraph*{}
+    Yes, the graph for tunning the $\lambda$ of the lasso regressor as can be seen in figure \ref{fig:q11} is different from the graph obtained for the ridge regressor in figure \ref{fig:q7} in a number of aspects.
+    \paragraph*{}
+    Firstly, the steepness of the upwards curve is much more abrupt and significant in the case of the lasso regressor than it is for the ridge. This can be explained by the way in which lasso differs than ridge: Whereas a ridge regressor utilizes $\ell^2$ regularization, lasso is implemented with $\ell^1$. This means that as $\lambda$ (\code{alpha}) is increased, the weight coefficients for the two regressors decrease in different manners. In the case of ridge, the coefficients experience weight decay, meaning they gradually tend to zero, whereas lasso tends to perform variable selection, meaning that the coefficients are more abruptly forced to zero one-by-one. This is reflected in the graphs, as the abruptness seen in figure \ref{fig:q11} could be explained by a certain significant coefficient abruptly forced to zero, whereas in the ridge graph of figure \ref{fig:q7}, coefficients are more gradually lowered and therefore the curve is more gradual.
+    \paragraph*{}
+    Furthermore, the upwards trend in the graph of lasso begins at a much lower \code{alpha} approximately equal to $0.025$ than it does for ridge (approximately \code{alpha} equal to $70$). This can be again explained by the behavior of $\ell^1$ as opposed to $\ell^2$: The decision of the lasso regressor to decrease a significant coefficient would be more abrupt and harsher than in the case of ridge, and therefore its effect on the accuracy would be seen almost immediately, and hence the earlier upwards trend in the lasso graph.
+    \paragraph*{}
+    Lastly, the optimal \code{alpha} for minimal validation error in thew case of lasso, equal to $0.0005$, is much smaller than that of ridge ($25.95$).
+
+
 \subsection*{Q13:}
-    \begin{center}
+    \begin{figure}[H]
+        \centering
         \begin{tabular}{|c|c|c|c|}
             \hline
             \rowcolor{gray!60}
@@ -141,7 +157,8 @@
             Ridge linear & 4 & $0.0172$ & $0.0174$\\ \hline
             Lasso linear & 5 & $0.0172$ & $0.0173$\\ \hline
         \end{tabular}
-    \end{center}
+        \caption{Training and Validation MSE Errors for Dummy, Ridge, and Lasso Regressors}
+    \end{figure}
 \subsection*{Q14:}
     \begin{figure}[H]
         \centering
@@ -182,7 +199,8 @@
     Validation error for optimal alpha: 0.01747015013288799
 
 \subsection*{Q19:}
-    \begin{center}
+    \begin{figure}[H]
+        \centering
         \begin{tabular}{|c|c|c|c|}
             \hline
             \rowcolor{gray!60}
@@ -194,5 +212,25 @@
             Lasso linear & 5 & $0.0172$ & $0.0173$\\ \hline
             Ridge polynomial & 6 & $0.0166$ & $0.0174$\\ \hline
         \end{tabular}
-    \end{center}
+        \caption{Training and Validation MSE Errors for Dummy, Ridge, Lasso, and Polynomial Ridge Regressors}
+    \end{figure}
+
+\section*{Section 7}
+\subsection*{Q20:}
+    \begin{figure}[H]
+        \centering
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline
+            \rowcolor{gray!60}
+            Model & Section & Train MSE & Valid MSE & Test MSE\\ \hline
+            \rowcolor{gray!20}
+            ~&~ & \multicolumn{2}{c|}{Cross Validated} & Retrained \\ \hline
+            Dummy & 3 & $0.0204$ & $0.0205$ & $0.0182$\\ \hline
+            Ridge linear & 4 & $0.0172$ & $0.0174$ & $0.0163$\\ \hline
+            Lasso linear & 5 & $0.0172$ & $0.0173$ & $0.0162$\\ \hline
+            Ridge polynomial & 6 & $0.0166$ & $0.0174$ & $0.0164$\\ \hline
+        \end{tabular}
+        \caption{Training, Validation, and Test MSE Errors for Dummy, Ridge, Lasso, and Polynomial Ridge Regressors}
+        \label{fig:q20}
+    \end{figure}
 \end{document}

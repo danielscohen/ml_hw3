@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  25 JAN 2022 22:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  26 JAN 2022 17:43
 entering extended mode
 **c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw3/313575599-308160647.tex
 (c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw3/313575599-308160647.tex
@@ -240,11 +240,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen142
 \Gm@layoutvoffset=\dimen143
 \Gm@dimlist=\toks27
- ("C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.cfg")) (c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw3\313575599-308160647.aux
-
-LaTeX Warning: Label `fig:q7' multiply defined.
-
-)
+ ("C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.cfg")) (c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw3\313575599-308160647.aux)
 \openout1 = `313575599-308160647.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -386,49 +382,45 @@ Overfull \hbox (13.84521pt too wide) in paragraph at lines 59--60
 <./images/q7.png, id=21, 793.96625pt x 460.72125pt>
 File: ./images/q7.png Graphic file (type png)
 <use ./images/q7.png>
-Package pdftex.def Info: ./images/q7.png  used on input line 80.
+Package pdftex.def Info: ./images/q7.png  used on input line 82.
 (pdftex.def)             Requested size: 396.98215pt x 230.36006pt.
  [3 <./images/q5.png>]
 <./images/q10.png, id=26, 425.59pt x 281.05pt>
 File: ./images/q10.png Graphic file (type png)
 <use ./images/q10.png>
-Package pdftex.def Info: ./images/q10.png  used on input line 117.
+Package pdftex.def Info: ./images/q10.png  used on input line 121.
 (pdftex.def)             Requested size: 297.91095pt x 196.73364pt.
  [4 <./images/q7.png>]
 <./images/q11.png, id=32, 793.96625pt x 460.72125pt>
 File: ./images/q11.png Graphic file (type png)
 <use ./images/q11.png>
-Package pdftex.def Info: ./images/q11.png  used on input line 125.
+Package pdftex.def Info: ./images/q11.png  used on input line 129.
 (pdftex.def)             Requested size: 396.98215pt x 230.36006pt.
  [5 <./images/q10.png> <./images/q11.png>]
 <./images/q15.png, id=38, 425.59pt x 281.05pt>
 File: ./images/q15.png Graphic file (type png)
 <use ./images/q15.png>
-Package pdftex.def Info: ./images/q15.png  used on input line 163.
+Package pdftex.def Info: ./images/q15.png  used on input line 180.
 (pdftex.def)             Requested size: 297.91095pt x 196.73364pt.
- [6 <./images/q15.png>]
+ [6]
 <./images/q18.png, id=43, 971.63pt x 460.72125pt>
 File: ./images/q18.png Graphic file (type png)
 <use ./images/q18.png>
-Package pdftex.def Info: ./images/q18.png  used on input line 177.
+Package pdftex.def Info: ./images/q18.png  used on input line 194.
 (pdftex.def)             Requested size: 485.81381pt x 230.36006pt.
- [7 <./images/q18.png>] (c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw3\313575599-308160647.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+ [7 <./images/q15.png>] [8 <./images/q18.png>] [9] (c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw3\313575599-308160647.aux) ) 
 Here is how much of TeX's memory you used:
- 5876 strings out of 492452
- 82855 string characters out of 3120063
- 166112 words of memory out of 3000000
- 10138 multiletter control sequences out of 15000+200000
+ 5878 strings out of 492452
+ 82873 string characters out of 3120063
+ 167091 words of memory out of 3000000
+ 10140 multiletter control sequences out of 15000+200000
  11671 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,10n,37p,919b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw3\313575599-308160647.pdf (7 pages, 391169 bytes).
+ 46i,10n,37p,1059b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw3\313575599-308160647.pdf (9 pages, 403791 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 79 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
