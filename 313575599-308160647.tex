@@ -233,4 +233,6 @@
         \caption{Training, Validation, and Test MSE Errors for Dummy, Ridge, Lasso, and Polynomial Ridge Regressors}
         \label{fig:q20}
     \end{figure}
+    \paragraph*{}
+    As can be seen in figure \ref{fig:q20}, the lasso regressor performed the best on the test set, as it achieved the lowest MSE of $0.0162$. Additionally, surprisingly enough, the test scores were better for all the models than their respective scores for both the training and validation sets. This possibly can be explained by the occurrence of underfitting, as perhaps their was enough variance in the training set, such that the validation sets chosen during the tuning process of all the models was varied enough, therefore causing a high optimal $\lambda$ to be chosen in a all cases, thereby creating models with high regularization. 
 \end{document}
