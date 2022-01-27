@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  26 JAN 2022 22:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  27 JAN 2022 16:12
 entering extended mode
 **c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw3/313575599-308160647.tex
 (c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw3/313575599-308160647.tex
@@ -197,6 +197,8 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen134
 \Gin@req@width=\dimen135
+) ("C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\tex/generic/genmisc\nth.sty"
+Package: nth 2002/02/27
 ) ("C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
  ("C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
@@ -243,18 +245,18 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
  ("C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.cfg")) (c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw3\313575599-308160647.aux)
 \openout1 = `313575599-308160647.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 \c@lstlisting=\count123
  ("C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -334,11 +336,11 @@ Package grfext Info: Graphics extension search list:
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
 ("C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
  ("C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -348,17 +350,17 @@ LaTeX Warning: No \author given.
 <images/q1.png, id=1, 1049.9225pt x 334.24875pt>
 File: images/q1.png Graphic file (type png)
 <use images/q1.png>
-Package pdftex.def Info: images/q1.png  used on input line 32.
+Package pdftex.def Info: images/q1.png  used on input line 33.
 (pdftex.def)             Requested size: 524.95996pt x 167.12396pt.
 
-Overfull \hbox (24.47597pt too wide) in paragraph at lines 32--33
+Overfull \hbox (24.47597pt too wide) in paragraph at lines 33--34
  [][] 
  []
 
 <images/q3.png, id=3, 700.86844pt x 317.68687pt>
 File: images/q3.png Graphic file (type png)
 <use images/q3.png>
-Package pdftex.def Info: images/q3.png  used on input line 45.
+Package pdftex.def Info: images/q3.png  used on input line 46.
 (pdftex.def)             Requested size: 490.60457pt x 222.37927pt.
 [1
 
@@ -366,15 +368,15 @@ Package pdftex.def Info: images/q3.png  used on input line 45.
 <./images/q4.png, id=14, 969.6225pt x 553.06625pt>
 File: ./images/q4.png Graphic file (type png)
 <use ./images/q4.png>
-Package pdftex.def Info: ./images/q4.png  used on input line 50.
+Package pdftex.def Info: ./images/q4.png  used on input line 51.
 (pdftex.def)             Requested size: 465.41351pt x 265.46878pt.
 <./images/q5.png, id=15, 1469.49pt x 885.3075pt>
 File: ./images/q5.png Graphic file (type png)
 <use ./images/q5.png>
-Package pdftex.def Info: ./images/q5.png  used on input line 59.
+Package pdftex.def Info: ./images/q5.png  used on input line 60.
 (pdftex.def)             Requested size: 514.32921pt x 309.86226pt.
 
-Overfull \hbox (13.84521pt too wide) in paragraph at lines 59--60
+Overfull \hbox (13.84521pt too wide) in paragraph at lines 60--61
  [][] 
  []
 
@@ -382,45 +384,54 @@ Overfull \hbox (13.84521pt too wide) in paragraph at lines 59--60
 <./images/q7.png, id=21, 793.96625pt x 460.72125pt>
 File: ./images/q7.png Graphic file (type png)
 <use ./images/q7.png>
-Package pdftex.def Info: ./images/q7.png  used on input line 82.
+Package pdftex.def Info: ./images/q7.png  used on input line 83.
 (pdftex.def)             Requested size: 396.98215pt x 230.36006pt.
  [3 <./images/q5.png>]
 <./images/q10.png, id=26, 425.59pt x 281.05pt>
 File: ./images/q10.png Graphic file (type png)
 <use ./images/q10.png>
-Package pdftex.def Info: ./images/q10.png  used on input line 121.
+Package pdftex.def Info: ./images/q10.png  used on input line 122.
 (pdftex.def)             Requested size: 297.91095pt x 196.73364pt.
  [4 <./images/q7.png>]
 <./images/q11.png, id=32, 793.96625pt x 460.72125pt>
 File: ./images/q11.png Graphic file (type png)
 <use ./images/q11.png>
-Package pdftex.def Info: ./images/q11.png  used on input line 129.
+Package pdftex.def Info: ./images/q11.png  used on input line 130.
 (pdftex.def)             Requested size: 396.98215pt x 230.36006pt.
  [5 <./images/q10.png> <./images/q11.png>]
 <./images/q15.png, id=38, 425.59pt x 281.05pt>
 File: ./images/q15.png Graphic file (type png)
 <use ./images/q15.png>
-Package pdftex.def Info: ./images/q15.png  used on input line 180.
+Package pdftex.def Info: ./images/q15.png  used on input line 181.
 (pdftex.def)             Requested size: 297.91095pt x 196.73364pt.
- [6]
-<./images/q18.png, id=43, 971.63pt x 460.72125pt>
+ [6] [7 <./images/q15.png>]
+Overfull \hbox (19.52682pt too wide) detected at line 252
+[]
+ []
+
+[8]
+Overfull \hbox (19.52682pt too wide) detected at line 259
+[]
+ []
+
+<./images/q18.png, id=54, 971.63pt x 460.72125pt>
 File: ./images/q18.png Graphic file (type png)
 <use ./images/q18.png>
-Package pdftex.def Info: ./images/q18.png  used on input line 194.
+Package pdftex.def Info: ./images/q18.png  used on input line 268.
 (pdftex.def)             Requested size: 485.81381pt x 230.36006pt.
- [7 <./images/q15.png>] [8 <./images/q18.png>] [9] (c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw3\313575599-308160647.aux) ) 
+[9 <./images/q18.png>] [10] (c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw3\313575599-308160647.aux) ) 
 Here is how much of TeX's memory you used:
- 5878 strings out of 492452
- 82873 string characters out of 3120063
- 167091 words of memory out of 3000000
- 10140 multiletter control sequences out of 15000+200000
+ 5895 strings out of 492452
+ 83204 string characters out of 3120063
+ 171227 words of memory out of 3000000
+ 10153 multiletter control sequences out of 15000+200000
  11671 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,10n,37p,1059b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw3\313575599-308160647.pdf (9 pages, 404376 bytes).
+ 46i,16n,37p,1059b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw3\313575599-308160647.pdf (10 pages, 439219 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 94 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
