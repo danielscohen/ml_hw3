@@ -1,7 +1,7 @@
 from sklearn.base import BaseEstimator, RegressorMixin
 import numpy as np
 
-    class LinearRegressor(BaseEstimator, RegressorMixin):
+class LinearRegressor(BaseEstimator, RegressorMixin):
     """
     Custom linear regression model
     """
@@ -40,10 +40,13 @@ import numpy as np
         :return: the linear regression objective loss (float scalar)
         """
 
-        # TODO: complete the loss calculation
-        loss = None
+        weighted_samples = np.dot(X,w)
+        inner_exp = weighted_samples + (np.ones_like(weighted_samples) * b) - y
+        norm_exp = np.linalg.norm(inner_exp)
+        reg = norm_exp ** 2
+        loss_mse = reg / y.shape
 
-        return loss
+        return loss_mse
 
     @staticmethod
     def gradient(w, b: float, X, y):
@@ -59,6 +62,16 @@ import numpy as np
         # TODO: calculate the analytical gradient w.r.t w and b
         g_w = None
         g_b = 0.0
+
+        m = y.shape
+        weighted_samples = np.dot(X,w)
+        inner_exp = weighted_samples + (np.ones_like(y) * b) - y
+        derived_exp = np.dot(np.transpose(X),inner_exp)
+        g_w = 2 * derived_exp / m
+        y_pred_exp = np.dot(np.transpose(w),np.sum(X, axis=0))
+        y_hat = np.sum(y)
+        total_sum = 2 * (y_pred_exp - y_hat) / m
+        g_b = total_sum + 2 * b
 
         return g_w, g_b
 
@@ -93,12 +106,12 @@ import numpy as np
             batch_y = y[start_idx: end_idx]
 
             # TODO: Compute the gradient for the current *batch*
-            g_w, g_b = None, None
+            g_w, g_b = self.gradient(self.w, self.b, batch_X, batch_y)
 
             # Perform a gradient step
             # TODO: update the learned parameters correctly
-            self.w = None
-            self.b = 0.0
+            self.w = self.w - (self.lr * g_w)
+            self.b = self.b - (self.lr * g_b)
 
             if keep_losses:
                 train_losses.append(self.loss(self.w, self.b,  X, y))
@@ -128,6 +141,6 @@ import numpy as np
         """
 
         # TODO: Compute
-        y_pred = None
+        y_pred = np.multiply(self.w, X) + self.b
 
         return y_pred
